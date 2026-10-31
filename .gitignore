@@ -1,0 +1,20 @@
+# Local Python environments
+.venv/
+venv/
+
+# Generated Python files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local quiz progress
+scores.json
+
+# Local environment settings
+.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
