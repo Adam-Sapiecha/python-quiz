@@ -1,0 +1,20 @@
+[project]
+name = "01-quiz"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Adam-Sapiecha", email = "adam.sapiecha05@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+01-quiz = "_01_quiz:main"
+
+[tool.uv.build-backend]
+module-name = "_01_quiz"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

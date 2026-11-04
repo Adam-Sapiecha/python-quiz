@@ -15,7 +15,7 @@ The project starts with one question and grows in small, understandable steps. T
 ## Learning objectives
 
 By the end, you should be able to:
-
+/tp DaddyJohn03 MrCiec/tp DaddyJohn03 MrCiec
 - Use variables, conditions, loops, lists, and dictionaries together.
 - Split a program into functions with clear inputs and return values.
 - Normalize user input without mixing it with scoring logic.

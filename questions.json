@@ -1,0 +1,652 @@
+[
+  {
+    "id": "py-001",
+    "question": "Which Python keyword defines a function?",
+    "answer": "A",
+    "explanation": "Use def followed by the function name, parameters, and a colon.",
+    "category": "basics",
+    "difficulty": "easy",
+    "options": {
+      "A": "def",
+      "B": "function",
+      "C": "define"
+    }
+  },
+  {
+    "id": "py-002",
+    "question": "Which Python keyword sends a value back from a function?",
+    "answer": "B",
+    "explanation": "return exits the function and passes a value to its caller.",
+    "category": "basics",
+    "difficulty": "easy",
+    "options": {
+      "A": "print",
+      "B": "return",
+      "C": "yield"
+    }
+  },
+  {
+    "id": "py-003",
+    "question": "Which Python function displays text in the terminal?",
+    "answer": "B",
+    "explanation": "print writes a representation of its arguments to the output stream.",
+    "category": "basics",
+    "difficulty": "easy",
+    "options": {
+      "A": "input",
+      "B": "print",
+      "C": "write"
+    }
+  },
+  {
+    "id": "py-004",
+    "question": "Which Python function reads a line typed by the user?",
+    "answer": "A",
+    "explanation": "input reads a line and returns it as a string without the trailing newline.",
+    "category": "basics",
+    "difficulty": "easy",
+    "options": {
+      "A": "input",
+      "B": "print",
+      "C": "read"
+    }
+  },
+  {
+    "id": "py-005",
+    "question": "Which symbol starts a single-line comment in Python?",
+    "answer": "B",
+    "explanation": "Python ignores the text after # outside a string literal.",
+    "category": "basics",
+    "difficulty": "easy",
+    "options": {
+      "A": "//",
+      "B": "#",
+      "C": "/*"
+    }
+  },
+  {
+    "id": "py-006",
+    "question": "Which operator checks whether two values are equal?",
+    "answer": "C",
+    "explanation": "== compares values; a single = assigns a value.",
+    "category": "basics",
+    "difficulty": "easy",
+    "options": {
+      "A": "=",
+      "B": "!=",
+      "C": "=="
+    }
+  },
+  {
+    "id": "py-007",
+    "question": "What is the usual filename extension for a Python source file?",
+    "answer": "C",
+    "explanation": "Python source files conventionally use the .py extension.",
+    "category": "basics",
+    "difficulty": "easy",
+    "options": {
+      "A": ".python",
+      "B": ".txt",
+      "C": ".py"
+    }
+  },
+  {
+    "id": "py-008",
+    "question": "Which Python keyword starts a conditional statement?",
+    "answer": "A",
+    "explanation": "if executes its block when its condition is truthy.",
+    "category": "basics",
+    "difficulty": "easy",
+    "options": {
+      "A": "if",
+      "B": "when",
+      "C": "for"
+    }
+  },
+  {
+    "id": "py-009",
+    "question": "Which Python keyword introduces the fallback block of an if statement?",
+    "answer": "B",
+    "explanation": "else handles the case where the preceding if and elif conditions did not match.",
+    "category": "basics",
+    "difficulty": "easy",
+    "options": {
+      "A": "elif",
+      "B": "else",
+      "C": "otherwise"
+    }
+  },
+  {
+    "id": "py-010",
+    "question": "What value does a function return if it finishes without an explicit return statement?",
+    "answer": "B",
+    "explanation": "A function that reaches its end without returning a value returns None.",
+    "category": "basics",
+    "difficulty": "medium",
+    "options": {
+      "A": "0",
+      "B": "None",
+      "C": "False"
+    }
+  },
+  {
+    "id": "py-011",
+    "question": "What does 7 + 5 evaluate to?",
+    "answer": "B",
+    "explanation": "The + operator adds these two integers.",
+    "category": "numbers_and_types",
+    "difficulty": "easy",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "13"
+    }
+  },
+  {
+    "id": "py-012",
+    "question": "What does 9 // 2 evaluate to?",
+    "answer": "B",
+    "explanation": "// performs floor division. Here the quotient 4.5 is rounded down to 4.",
+    "category": "numbers_and_types",
+    "difficulty": "easy",
+    "options": {
+      "A": "4.5",
+      "B": "4",
+      "C": "5"
+    }
+  },
+  {
+    "id": "py-013",
+    "question": "What does 9 % 2 evaluate to?",
+    "answer": "A",
+    "explanation": "% gives the remainder of division; 9 divided by 2 leaves 1.",
+    "category": "numbers_and_types",
+    "difficulty": "easy",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "2"
+    }
+  },
+  {
+    "id": "py-014",
+    "question": "What does 2 ** 4 evaluate to?",
+    "answer": "B",
+    "explanation": "** is exponentiation: 2 multiplied by itself four times is 16.",
+    "category": "numbers_and_types",
+    "difficulty": "easy",
+    "options": {
+      "A": "8",
+      "B": "16",
+      "C": "32"
+    }
+  },
+  {
+    "id": "py-015",
+    "question": "What is the Python type name for the value 42?",
+    "answer": "B",
+    "explanation": "int represents integers, such as 42, 0, and -7.",
+    "category": "numbers_and_types",
+    "difficulty": "easy",
+    "options": {
+      "A": "float",
+      "B": "int",
+      "C": "str"
+    }
+  },
+  {
+    "id": "py-016",
+    "question": "What is the Python type name for the value 3.5?",
+    "answer": "A",
+    "explanation": "A numeric literal containing a decimal point normally creates a float.",
+    "category": "numbers_and_types",
+    "difficulty": "easy",
+    "options": {
+      "A": "float",
+      "B": "int",
+      "C": "decimal"
+    }
+  },
+  {
+    "id": "py-017",
+    "question": "What is the Python type name for the value True?",
+    "answer": "A",
+    "explanation": "bool has two values: True and False.",
+    "category": "numbers_and_types",
+    "difficulty": "easy",
+    "options": {
+      "A": "bool",
+      "B": "str",
+      "C": "int"
+    }
+  },
+  {
+    "id": "py-018",
+    "question": "What is the Python type name for the value \"hello\"?",
+    "answer": "A",
+    "explanation": "Text values are instances of str.",
+    "category": "numbers_and_types",
+    "difficulty": "easy",
+    "options": {
+      "A": "str",
+      "B": "char",
+      "C": "text"
+    }
+  },
+  {
+    "id": "py-019",
+    "question": "What does bool(\"\") evaluate to?",
+    "answer": "C",
+    "explanation": "An empty string is falsy, so bool converts it to False.",
+    "category": "numbers_and_types",
+    "difficulty": "medium",
+    "options": {
+      "A": "True",
+      "B": "None",
+      "C": "False"
+    }
+  },
+  {
+    "id": "py-020",
+    "question": "What does int(\"12\") + 3 evaluate to?",
+    "answer": "A",
+    "explanation": "int converts the string \"12\" into an integer before addition.",
+    "category": "numbers_and_types",
+    "difficulty": "medium",
+    "options": {
+      "A": "15",
+      "B": "123",
+      "C": "12"
+    }
+  },
+  {
+    "id": "py-021",
+    "question": "What does len(\"Python\") evaluate to?",
+    "answer": "C",
+    "explanation": "The string contains six characters.",
+    "category": "strings",
+    "difficulty": "easy",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "6"
+    }
+  },
+  {
+    "id": "py-022",
+    "question": "What is the value of \"Python\"[0]?",
+    "answer": "B",
+    "explanation": "String indexes start at 0, so index 0 selects the first character.",
+    "category": "strings",
+    "difficulty": "easy",
+    "options": {
+      "A": "y",
+      "B": "P",
+      "C": "n"
+    }
+  },
+  {
+    "id": "py-023",
+    "question": "What is the value of \"Python\"[-1]?",
+    "answer": "A",
+    "explanation": "Index -1 selects the last character.",
+    "category": "strings",
+    "difficulty": "easy",
+    "options": {
+      "A": "n",
+      "B": "P",
+      "C": "o"
+    }
+  },
+  {
+    "id": "py-024",
+    "question": "What is the value of \"Python\"[1:4]?",
+    "answer": "A",
+    "explanation": "A slice includes its start index and excludes its stop index.",
+    "category": "strings",
+    "difficulty": "medium",
+    "options": {
+      "A": "yth",
+      "B": "ytho",
+      "C": "Pyt"
+    }
+  },
+  {
+    "id": "py-025",
+    "question": "What is the value of \"hello\".upper()?",
+    "answer": "B",
+    "explanation": "upper returns a new string with uppercase characters.",
+    "category": "strings",
+    "difficulty": "easy",
+    "options": {
+      "A": "hello",
+      "B": "HELLO",
+      "C": "Hello"
+    }
+  },
+  {
+    "id": "py-026",
+    "question": "What is the value of \"HELLO\".lower()?",
+    "answer": "C",
+    "explanation": "lower returns a new string with lowercase characters.",
+    "category": "strings",
+    "difficulty": "easy",
+    "options": {
+      "A": "HELLO",
+      "B": "Hello",
+      "C": "hello"
+    }
+  },
+  {
+    "id": "py-027",
+    "question": "Which string method removes whitespace from both ends?",
+    "answer": "C",
+    "explanation": "strip removes leading and trailing whitespace by default, but leaves internal spaces.",
+    "category": "strings",
+    "difficulty": "easy",
+    "options": {
+      "A": "trim",
+      "B": "split",
+      "C": "strip"
+    }
+  },
+  {
+    "id": "py-028",
+    "question": "Which string method is designed for caseless matching?",
+    "answer": "C",
+    "explanation": "casefold performs Unicode-aware case folding, which is useful when comparing user answers.",
+    "category": "strings",
+    "difficulty": "medium",
+    "options": {
+      "A": "capitalize",
+      "B": "swapcase",
+      "C": "casefold"
+    }
+  },
+  {
+    "id": "py-029",
+    "question": "How many items are in the list returned by \"red,blue,green\".split(\",\")?",
+    "answer": "C",
+    "explanation": "split separates the string at each comma, producing three strings.",
+    "category": "strings",
+    "difficulty": "medium",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "3"
+    }
+  },
+  {
+    "id": "py-030",
+    "question": "What is the value of \"-\".join([\"a\", \"b\", \"c\"])?",
+    "answer": "A",
+    "explanation": "join places the separator between adjacent strings.",
+    "category": "strings",
+    "difficulty": "medium",
+    "options": {
+      "A": "a-b-c",
+      "B": "abc",
+      "C": "a,b,c"
+    }
+  },
+  {
+    "id": "py-031",
+    "question": "What does len([10, 20, 30]) evaluate to?",
+    "answer": "B",
+    "explanation": "The list contains three elements.",
+    "category": "collections_and_loops",
+    "difficulty": "easy",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "30"
+    }
+  },
+  {
+    "id": "py-032",
+    "question": "Which list method adds one item at the end?",
+    "answer": "C",
+    "explanation": "append adds its argument as a single element at the end of the list.",
+    "category": "collections_and_loops",
+    "difficulty": "easy",
+    "options": {
+      "A": "extend",
+      "B": "insert",
+      "C": "append"
+    }
+  },
+  {
+    "id": "py-033",
+    "question": "Which built-in collection type stores key-value pairs?",
+    "answer": "C",
+    "explanation": "A dictionary maps keys to values.",
+    "category": "collections_and_loops",
+    "difficulty": "easy",
+    "options": {
+      "A": "list",
+      "B": "set",
+      "C": "dict"
+    }
+  },
+  {
+    "id": "py-034",
+    "question": "Which built-in collection type stores distinct elements and has no guaranteed iteration order?",
+    "answer": "A",
+    "explanation": "A set removes duplicate elements and is not an ordered sequence.",
+    "category": "collections_and_loops",
+    "difficulty": "easy",
+    "options": {
+      "A": "set",
+      "B": "list",
+      "C": "tuple"
+    }
+  },
+  {
+    "id": "py-035",
+    "question": "Which Python keyword loops over the items in an iterable?",
+    "answer": "B",
+    "explanation": "A for loop visits the items produced by an iterable.",
+    "category": "collections_and_loops",
+    "difficulty": "easy",
+    "options": {
+      "A": "while",
+      "B": "for",
+      "C": "loop"
+    }
+  },
+  {
+    "id": "py-036",
+    "question": "Which Python keyword repeats a block while a condition remains truthy?",
+    "answer": "C",
+    "explanation": "A while loop checks its condition before each iteration.",
+    "category": "collections_and_loops",
+    "difficulty": "easy",
+    "options": {
+      "A": "for",
+      "B": "repeat",
+      "C": "while"
+    }
+  },
+  {
+    "id": "py-037",
+    "question": "Which keyword immediately exits the nearest enclosing loop?",
+    "answer": "B",
+    "explanation": "break stops the nearest loop and execution continues after it.",
+    "category": "collections_and_loops",
+    "difficulty": "easy",
+    "options": {
+      "A": "continue",
+      "B": "break",
+      "C": "return"
+    }
+  },
+  {
+    "id": "py-038",
+    "question": "Which keyword skips the rest of the current loop iteration?",
+    "answer": "C",
+    "explanation": "continue moves to the next iteration of the nearest loop.",
+    "category": "collections_and_loops",
+    "difficulty": "medium",
+    "options": {
+      "A": "break",
+      "B": "pass",
+      "C": "continue"
+    }
+  },
+  {
+    "id": "py-039",
+    "question": "How many values does range(1, 5) produce?",
+    "answer": "B",
+    "explanation": "It produces 1, 2, 3, and 4. The stop value 5 is excluded.",
+    "category": "collections_and_loops",
+    "difficulty": "medium",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3"
+    }
+  },
+  {
+    "id": "py-040",
+    "question": "What does {\"name\": \"Ada\"}.get(\"age\", 0) return?",
+    "answer": "B",
+    "explanation": "dict.get returns its default argument when the key is absent.",
+    "category": "collections_and_loops",
+    "difficulty": "medium",
+    "options": {
+      "A": "None",
+      "B": "0",
+      "C": "KeyError"
+    }
+  },
+  {
+    "id": "py-041",
+    "question": "Which Python keyword makes a module available for use?",
+    "answer": "A",
+    "explanation": "import loads a module and binds a name so its contents can be accessed.",
+    "category": "files_and_errors",
+    "difficulty": "easy",
+    "options": {
+      "A": "import",
+      "B": "include",
+      "C": "using"
+    }
+  },
+  {
+    "id": "py-042",
+    "question": "Which standard-library module reads and writes JSON data?",
+    "answer": "A",
+    "explanation": "The json module provides functions for JSON encoding and decoding.",
+    "category": "files_and_errors",
+    "difficulty": "easy",
+    "options": {
+      "A": "json",
+      "B": "csv",
+      "C": "pickle"
+    }
+  },
+  {
+    "id": "py-043",
+    "question": "Which json function reads JSON from an open file object?",
+    "answer": "C",
+    "explanation": "json.load reads JSON from a file-like object; json.loads reads JSON from a string.",
+    "category": "files_and_errors",
+    "difficulty": "medium",
+    "options": {
+      "A": "loads",
+      "B": "read",
+      "C": "load"
+    }
+  },
+  {
+    "id": "py-044",
+    "question": "Which json function writes JSON to an open file object?",
+    "answer": "C",
+    "explanation": "json.dump writes a JSON representation to a file-like object.",
+    "category": "files_and_errors",
+    "difficulty": "medium",
+    "options": {
+      "A": "dumps",
+      "B": "write",
+      "C": "dump"
+    }
+  },
+  {
+    "id": "py-045",
+    "question": "Which module contains the choice and sample functions for random selection?",
+    "answer": "A",
+    "explanation": "The random module includes functions for choosing and sampling sequence elements.",
+    "category": "files_and_errors",
+    "difficulty": "easy",
+    "options": {
+      "A": "random",
+      "B": "math",
+      "C": "statistics"
+    }
+  },
+  {
+    "id": "py-046",
+    "question": "Which random function selects k items from a list without replacement?",
+    "answer": "A",
+    "explanation": "random.sample returns a new list. With distinct questions in the source list, a question is not selected twice in one sample.",
+    "category": "files_and_errors",
+    "difficulty": "medium",
+    "options": {
+      "A": "sample",
+      "B": "choice",
+      "C": "choices"
+    }
+  },
+  {
+    "id": "py-047",
+    "question": "Which Python keyword starts a block whose exceptions you want to handle?",
+    "answer": "C",
+    "explanation": "A try block contains operations that may raise exceptions.",
+    "category": "files_and_errors",
+    "difficulty": "easy",
+    "options": {
+      "A": "except",
+      "B": "catch",
+      "C": "try"
+    }
+  },
+  {
+    "id": "py-048",
+    "question": "Which Python keyword starts an exception handler?",
+    "answer": "B",
+    "explanation": "An except block handles matching exceptions raised inside a try block.",
+    "category": "files_and_errors",
+    "difficulty": "easy",
+    "options": {
+      "A": "catch",
+      "B": "except",
+      "C": "finally"
+    }
+  },
+  {
+    "id": "py-049",
+    "question": "Which exception is normally raised when opening a nonexistent file for reading?",
+    "answer": "A",
+    "explanation": "Opening a nonexistent path for reading normally raises FileNotFoundError.",
+    "category": "files_and_errors",
+    "difficulty": "medium",
+    "options": {
+      "A": "FileNotFoundError",
+      "B": "KeyError",
+      "C": "ValueError"
+    }
+  },
+  {
+    "id": "py-050",
+    "question": "Which exception is raised by int(\"hello\")?",
+    "answer": "C",
+    "explanation": "The argument is a string, but its contents do not represent a valid integer.",
+    "category": "files_and_errors",
+    "difficulty": "medium",
+    "options": {
+      "A": "TypeError",
+      "B": "NameError",
+      "C": "ValueError"
+    }
+  }
+]
